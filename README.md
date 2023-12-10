@@ -3,7 +3,8 @@
 - **Nazwa skrócona:** AWW
 - **Nazwa pełna:** Analiza zróżnicowania wyników wyborów do Sejmu 2023
 - **Krótki opis ze wskazaniem celów:**
-    tbd
+    tbd?
+    Projekt "Analiza zróżnicowania wyników wyborów do Sejmu 2023" ma na celu przedstawienie prawdopodobieństw otrzymania mandatu poselskiego, analizę rezultatów wyborczych w poszczególnych okręgach wyborczych oraz analizę frekwencji w porównaniu do poprzednich wyborów.  
 
 ### 2. Prawa autorskie:
 
