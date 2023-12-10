@@ -28,13 +28,21 @@
 | A3.1 | Podział okręgów na grupy | System przeprowadza analizę dzielącą okręgi na grupy podobne pod względem wyników wyborów. | 1 | Funkcjonalne |
 | A3.2 | Cechy charakterystyczne grup | System wyświetla charakterystyki utworzonych grup okręgów i wskazuje czym te okręgi się różnią od siebie. | 1 | Funkcjonalne |
 | A3.3 | Wizualizacja grup | System wizualizuje wyróżnione grupy na wykresie. | 1 | Funkcjonalne |
+| A4 | Analiza wzrostu frekwencji | System pozwala na wizualizację różnicy liczby głosów dla poszczególnych partii (według każdego okręgu wyborczego) porównując wyniki z roku 2019 z wyborami w 2023 roku.  | 1 | Funkcjonalne |
 
 ### 4. Architektura systemu/oprogramowania:
 
 - **Architektura rozwoju – stos technologiczny:**
     - RStudio version 4.2.2
 - **Architektura uruchomieniowa – stos technologiczny:**
-    - tbd
+    - R packages: 
+        - Shiny
+        - DT
+        - dplyr
+        - rpart
+        - ggplot2
+        - tidyr
+    
 
 ### 5. Testy:
 
