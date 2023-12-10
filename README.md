@@ -42,6 +42,8 @@
         - rpart
         - ggplot2
         - tidyr
+        - readxl 
+        - tidyverse
     
 
 ### 5. Testy:
