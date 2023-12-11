@@ -33,6 +33,8 @@
 | A5.1 | Podział kandydatów na okręgi  | Program powinien dzielić zbiór danych „kandydaci” na okręgi.  | 1 | Funkcjonalne |
 | A5.2 | Wyszukiwanie kandydatów otrzymujących mandat | Program powinien wyszukiwać kandydatów, którzy otrzymali mandat dla dowolnego okręgu i dowolnej partii.  | 1 | Funkcjonalne |
 | A5.3 | Wizualizacja osób z mandatem  | Program powinien wyświetlać wykres obrazujący liczbę osób, które otrzymały mandat z danego miejsca na liście.  | 1 | Funkcjonalne |
+| A6 | Przejrzystość  | Graficzny interfejs użytkownika stworzony przy wykorzystaniu Shiny powinien być przejrzysty i zapewniać prostotę i swobodę użytkowania oprogramowania. | 2 | Niefunkcjonalne |
+| A7 | Dostępność | Program powinien być dostępny 24h/7 z odpowiedzią kilku sekund przy zwiększonym obiążeniu. | 2 | Niefunkcjonalne |
 
 ### 4. Architektura systemu/oprogramowania:
 
