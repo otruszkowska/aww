@@ -28,7 +28,7 @@
 | A3.1 | Podział okręgów na grupy | Program powinien przeprowadzać analizę dzielącą okręgi na grupy podobne pod względem wyników wyborów. | 1 | Funkcjonalne |
 | A3.2 | Cechy charakterystyczne grup | Program powinien wyświetlać charakterystyki utworzonych grup okręgów i wskazywać czym te okręgi się różnią od siebie. | 1 | Funkcjonalne |
 | A3.3 | Wizualizacja grup | Program powinien wizualizować wyróżnione grupy na wykresie. | 1 | Funkcjonalne |
-| A4 | Analiza wzrostu frekwencji | Program powinien wizualizować różnicę liczby głosów dla poszczególnych partii (według każdego okręgu wyborczego) porównując wyniki z roku 2019 z wyborami w 2023 roku.  | 1 | Funkcjonalne |
+| A4 | Analiza dynamiki frekwencji | Program powinien wizualizować różnicę liczby głosów dla poszczególnych partii (według każdego okręgu wyborczego) porównując wyniki z roku 2019 z wyborami w 2023 roku.  | 1 | Funkcjonalne |
 | A5 | Analiza kandydatów pod względem pozycji na liście  | Program powinien wyszukiwać osoby, które dostały mandat w zależności od okręgu i partii politycznej oraz wyświetlać liczbę osób, które otrzymały mandat z danego miejsca na liście.  | 1 | Funkcjonalne |
 | A5.1 | Podział kandydatów na okręgi  | Program powinien dzielić zbiór danych „kandydaci” na okręgi.  | 1 | Funkcjonalne |
 | A5.2 | Wyszukiwanie kandydatów otrzymujących mandat | Program powinien wyszukiwać kandydatów, którzy otrzymali mandat dla dowolnego okręgu i dowolnej partii.  | 1 | Funkcjonalne |
@@ -39,17 +39,17 @@
 ### 4. Architektura systemu/oprogramowania:
 
 - **Architektura rozwoju – stos technologiczny:**
-    - github
+    - GitHub - umożliwia przechowywanie, śledzenie zmian i współpracę nad projektami programistycznymi
     - RStudio version 4.2.2
     - R packages: 
-        - Shiny
-        - DT
-        - dplyr
-        - rpart
-        - ggplot2
-        - tidyr
-        - readxl 
-        - tidyverse
+        - Shiny - Tworzenie interaktywnych aplikacji internetowych w R.
+        - DT - Budowanie interaktywnych tabel danych w aplikacjach Shiny.
+        - dplyr - Przetwarzanie danych (filtrowanie, sortowanie, grupowanie).
+        - rpart - Budowa drzew decyzyjnych dla analizy i predykcji danych.
+        - ggplot2 - Tworzenie wykresów statystycznych.
+        - tidyr - Czyszczenie danych.
+        - readxl - Importowanie danych z plików Excel do R.
+        - tidyverse - Integracja pakietów dla spójnego przetwarzania danych w R (takich jak dplyr, ggplot2, tidyr itp.).
     
 - **Architektura uruchomieniowa – stos technologiczny:**
     - Shiny
@@ -67,9 +67,21 @@
 
 #### a. Scenariusz testów:
 
-tbd
+| ID testu| Opis testu | 
+| --- | --- |
+| A1 | Załadowanie i przygotowanie danych.  | 
+| A2 | Przeprowadzenie analizy prawdopodobieństwa otrzymania mandatu poselskiego. | 
+| A3 | Przeprowadzenie grupowania podobnych okręgów. | 
+| A4 | Przeprowadzenie analizy dotyczącej zróżnicowania liczby głosów w podziale na okręgi wyborcze w porównaniu z poprzednimi wyborami.  | 
+| A5 | Przeprowadzenie analizy kandydatów pod względem ich pozycji na liście. | 
 
 #### b. Sprawozdanie z wykonania scenariuszy testów:
 
-tbd
+| ID testu | Wynik | 
+| --- | --- |
+| A1 | SUKCES | 
+| A2 | SUKCES | 
+| A3 | SUKCES | 
+| A4 | SUKCES | 
+| A5 | SUKCES | 
 
