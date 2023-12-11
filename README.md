@@ -37,6 +37,7 @@
 ### 4. Architektura systemu/oprogramowania:
 
 - **Architektura rozwoju – stos technologiczny:**
+    - github
     - RStudio version 4.2.2
     - R packages: 
         - Shiny
